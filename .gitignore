@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DotNetCore6WebAPI/DomainLayer/obj
+/DotNetCore6WebAPI/DomainLayer/bin/Debug/net6.0
+/DotNetCore6WebAPI/.vs
+/DotNetCore6WebAPI/DotNetCore6WebAPI/bin/Debug/net6.0
+/DotNetCore6WebAPI/DotNetCore6WebAPI/obj
+/DotNetCore6WebAPI/Infrastructure/bin/Debug/net6.0
+/DotNetCore6WebAPI/Infrastructure/obj
