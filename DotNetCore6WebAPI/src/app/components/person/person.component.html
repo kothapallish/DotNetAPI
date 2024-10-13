@@ -1,0 +1,11 @@
+<form [formGroup]="personForm" (ngSubmit)="onSubmit()">
+  <h1>Add Person</h1>
+    <label for="name">Name</label>
+    <input id="name" formControlName="name">
+    <div *ngIf="personForm.get('name')?.invalid && personForm.get('name')?.touched">
+      Name is required
+    </div>
+    <label for="address">Address</label>
+    <input id="address" formControlName="address">
+    <button type="submit" [disabled]="personForm.invalid">Submit</button>
+</form>
