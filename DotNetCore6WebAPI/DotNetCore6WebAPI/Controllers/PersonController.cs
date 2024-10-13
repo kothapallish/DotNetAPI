@@ -27,6 +27,7 @@ namespace DotNetCore6WebAPI.Controllers
                 // Query RavenDB for all Person documents
                 var persons = await session.Query<Person>().ToListAsync();
                 return Ok(persons); // Return the list of persons
+
             }
         }
         [HttpPost]
